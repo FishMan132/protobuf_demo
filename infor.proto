@@ -1,0 +1,12 @@
+syntax = "proto2";
+message my_message{
+    required string startedTime =1;
+    required string version=2;
+    required double configuredCapacity=3;
+    required double dfsUsed =4;
+    required int32 fileNum=5;
+    required int32 replicatedFilesNum =6;
+    required int32 blockNum =7;
+    required int32 livedNodeNum =8;
+    required int32 decommissioningNodeNum=9;
+ }
